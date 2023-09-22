@@ -5,7 +5,7 @@ import { authOptions } from '@/lib/auth'
 const page = async () => {
   const session = await getServerSession(authOptions)
   if( session?.user){
-    return <h2 className='text-2xl'>Usuário logado - Bem vindo, {session?.user.username} </h2>
+    return <h2 className='text-2xl'>Usuário logado - Bem vindo(a), {session?.user.username} </h2>
   }
 
 

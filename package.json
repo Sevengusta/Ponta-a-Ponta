@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
+    "eslint-plugin-next": "^0.0.0",
     "prisma": "^5.1.1"
   }
 }
